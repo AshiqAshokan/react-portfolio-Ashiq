@@ -7,7 +7,7 @@ import { FaFileDownload } from 'react-icons/fa'
 const Navbars = () => {
   const handleDownload = () => {
     // Logic to download the CV PDF
-    window.open('/cv/Ashiq New.pdf', '_blank');
+    window.open('/cv/Ashiq New(1).pdf', '_blank');
   };
   return (
     <div className='flex justify-between items-center py-6 mb-20'>
