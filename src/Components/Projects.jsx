@@ -85,7 +85,7 @@ const Projects = () => {
              transition={{ duration:1 }}
         className='w-full flex justify-start mt-20 '>
                 <div className="max-w-xs rounded overflow-hidden">
-                    <img src={project3} alt='Ecommercepic' />
+                    <img src={project1} alt='Ecommercepic' />
                 </div>
             </motion.div>
         <motion.div
@@ -94,12 +94,14 @@ const Projects = () => {
            transition={{ duration:1 }}
          className='w-full flex justify-center items-center'>
           <div>
-            <h1 className='text-2xl text-white font-bold mt-10 mb-4'>Portfolio Website</h1>
-            <p className='font-light text-slate-200 tracking-tighter mb-4'>As a passionate web Developer enthusiast, I developed portfolio to showcase my skills and accomplishments. This project serves as a comprehensive portfolio highlighting my expertise, projects, and achievements in MERN</p>
+            <h1 className='text-2xl text-white font-bold mt-10 mb-4'>MiniStore Ecommerce Website</h1>
+            <p className='font-light text-slate-200 tracking-tighter mb-4'>I developed a mini e-commerce website using HTML, CSS, Node.js, and SQL. The frontend offers a clean, intuitive interface, while the Node.js backend efficiently handles requests. SQL securely manages product and user data, creating a responsive and reliable shopping platform.</p>
             <div className='flex flex-wrap'>
               <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Html</span>
               <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>css</span>
               <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Bootstrap</span>
+              <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Node Js</span>
+              <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Mysql</span>
               
             </div>
           </div>
