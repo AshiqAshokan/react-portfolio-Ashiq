@@ -2,6 +2,7 @@ import React from 'react'
 import project1 from '../assets/projects/ministore.png'
 import project2 from '../assets/projects/Sindhu.png'
 import project3 from '../assets/projects/apps.png'
+import project4 from '../assets/projects/projects.png'
 import { motion } from 'framer-motion'
 
 
@@ -20,7 +21,7 @@ const Projects = () => {
         transition={{ duration:1 }}
          className='w-full flex justify-start mt-20 '>
                 <div className="max-w-xs rounded overflow-hidden">
-                    <img src={project1} alt='Ecommercepic' />
+                    <img src={project4} alt='Collegepic' />
                 </div>
             </motion.div>
         <motion.div 
@@ -29,14 +30,18 @@ const Projects = () => {
         transition={{ duration: 1 }}
         className='w-full flex justify-center items-center'>
           <div>
-            <h1 className='text-2xl text-white font-bold mt-10 mb-4'>E-commerce Website</h1>
-            <p className='font-light text-slate-200 tracking-tighter mb-4'>A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.</p>
-            <div className='flex flex-wrap'>
+            <h1 className='text-2xl text-white font-bold mt-10 mb-4'>Comprehensive College Management Web Application</h1>
+            <p className='font-light text-slate-200 tracking-tighter mb-4'>Developed a comprehensive college management web application using the MERN stack, WebRTC, Socket.io, Razorpay, RTK Query, and Tailwind CSS. Key features include online video conferencing, real-time chat, group PTA meetings, tuition fee payments, teacher salary management, online examinations, resource sharing, and attendance tracking. Implemented secure user authentication, responsive design,</p>
+            <div className='flex flex-wrap mb-3'>
               <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Html</span>
               <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>css</span>
               <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Bootstrap</span>
               <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Node js</span>
               <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Mysql</span>
+            </div>
+            <div className='flex'>
+              <p className='text-white'>Link</p>
+              <a href="https://github.com/your-github-username/your-repo-name"></a>
             </div>
           </div>
         </motion.div>
