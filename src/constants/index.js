@@ -72,5 +72,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Anakha Decentmukku Marthikunnu.po Navaikulam ",
   phoneNo: "+91 9188775160",
-  email: "ashiqappu112@gmail.com",
+  email: "ashiqasokan1045@gmail.com",
 };
