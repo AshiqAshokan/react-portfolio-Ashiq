@@ -41,7 +41,7 @@ const Projects = () => {
             </div>
             <div className='flex'>
               <p className='text-white'>Link</p>
-              <a href="https://github.com/your-github-username/your-repo-name"></a>
+              <a href="https://github.com/your-github-username/your-repo-name" className='text-white'></a>
             </div>
           </div>
         </motion.div>
