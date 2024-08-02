@@ -39,10 +39,10 @@ const Projects = () => {
               <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Node js</span>
               <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Mysql</span>
             </div>
-            <div className='flex'>
-              <p className='text-white'>Link</p>
-              <a href="https://chmm-college-1-frontend.onrender.com" className='text-white'>link</a>
-            </div>
+            <div className='flex items-center'>
+    <p className='text-white mr-2'>Link:</p>
+    <a href="https://chmm-college-1-frontend.onrender.com" className='text-white underline'>https://chmm-college-1-frontend.onrender.com</a>
+  </div>
           </div>
         </motion.div>
       </div>
