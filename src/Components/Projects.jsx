@@ -81,6 +81,12 @@ Ministore is an e-commerce website for clothing sales, built with React, Redux f
                <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>JWT</span>
               
             </div>
+                        <div className='flex items-center'>
+    <p className='text-white mr-2'>Project Link:</p>
+    <a href="https://ministore-frontend-sxzm.onrender.com" className='text-white underline'>https://ministore-frontend-sxzm.onrender.com</a>
+    <p className='text-white mr-2'>Admin Link:</p>
+    <a href="https://ministore-admin.onrender.com" className='text-white underline'>https://ministore-admin.onrender.com</a>
+  </div>
           </div>
         </motion.div>
       </div>
