@@ -1,5 +1,5 @@
 import React from 'react' 
-import project1 from '../assets/projects/ministore.png'
+import project1 from '../assets/projects/clothshops.png'
 import project2 from '../assets/projects/Sindhu.png'
 import project3 from '../assets/projects/apps.png'
 import project4 from '../assets/projects/projects.png'
