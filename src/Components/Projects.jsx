@@ -68,7 +68,8 @@ const Projects = () => {
          className='w-full flex justify-center items-center'>
           <div>
             <h1 className='text-2xl text-white font-bold mt-10 mb-4'>MiniStore Ecommerce Website</h1>
-            <p className='font-light text-slate-200 tracking-tighter mb-4'>I developed a mini e-commerce website using HTML, CSS, Node.js, and SQL. The frontend offers a clean, intuitive interface, while the Node.js backend efficiently handles requests. SQL securely manages product and user data, creating a responsive and reliable shopping platform.</p>
+            <p className='font-light text-slate-200 tracking-tighter mb-4'>
+Ministore is an e-commerce website for clothing sales, built with React, Redux for state management, and RTK Query for data fetching. The backend uses Node.js and MongoDB for handling user data, products, and orders. Firebase manages product uploads, while JWT ensures secure authentication. Razorpay is integrated for smooth, secure payments. This project offers a complete e-commerce solution with real-time interactions, a responsive UI, and robust backend functionality for modern online retail</p>
             <div className='flex flex-wrap'>
               <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Html</span>
               <span className='mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>css</span>
